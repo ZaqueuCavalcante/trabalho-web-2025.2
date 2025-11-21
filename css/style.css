@@ -49,11 +49,14 @@ section.hero {
 section.hero .hero-content {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 580px;
 }
 
 .hero-content .image {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content .image img {
@@ -65,9 +68,20 @@ section.hero .hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
     gap: 20px;
     width: 50%;
+}
+
+.hero-content .content h1 {
+    font-size: 2.5rem;
+    color: #382923;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-content .content p {
+    font-size: 1.2rem;
+    color: #382923;
+    font-family: 'Arial', sans-serif;
 }
 
 .logos {
@@ -80,4 +94,14 @@ section.hero .hero-content {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+.btn--brown {
+    background-color: #382923;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 12px 50px;
+    text-transform: uppercase;
 }
