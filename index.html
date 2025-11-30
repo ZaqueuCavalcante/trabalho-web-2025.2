@@ -1,103 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DBeaver PRO | Manage 100+ Databases in One Place</title>
 
     <!-- Bootstrap CSS and JS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Custom CSS and JS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <img class="logo" src="images/logo.svg" alt="Logo">
-                <span>
-                    <a href="#produtos">Products</a>
-                </span>
-                <span>
-                    <a href="#precos">Pricing</a>
-                </span>
-                <span>
-                    <a href="#contato">Resources</a>
-                </span>
-                <span>
-                    <a href="#sobre">Documentation</a>
-                </span>
-                
-                <div class="spacer"></div>
+      <div class="container">
+        <nav class="navbar">
+          <img class="logo" src="images/logo.svg" alt="Logo" />
+          <span>
+            <a href="#produtos">Products</a>
+          </span>
+          <span>
+            <a href="#precos">Pricing</a>
+          </span>
+          <span>
+            <a href="#contato">Resources</a>
+          </span>
+          <span>
+            <a href="#sobre">Documentation</a>
+          </span>
 
-                <span>
-                    <a href="#contato">Support</a>
-                </span>
-                <span>
-                    <a href="#sobre">Get a trial</a>
-                </span>
-            </nav>
-        </div>
+          <div class="spacer"></div>
+
+          <span>
+            <a href="#contato">Support</a>
+          </span>
+          <span>
+            <a href="#sobre">Get a trial</a>
+          </span>
+        </nav>
+      </div>
     </header>
 
     <section class="hero">
-        <div class="container">
+      <div class="container">
+        <div class="hero-content">
+          <div class="image">
+            <img src="images/human.png" alt="Imagem Principal" />
+          </div>
 
-            <div class="hero-content">
-                <div class="image">
-                    <img src="images/human.png" alt="Imagem Principal">
-                </div>
-    
-                <div class="content">
-                    <h1>One database tool for<br>100+ data sources</h1>
-                    <p>The professional data management software trusted by experts.</p>
-                    <p>You can use DBeaver PRO’s advanced features, including a professional SQL Editor, to explore, process, and administer any SQL, NoSQL, and cloud data sources.</p>
-                    <div>
-                        <a href="#produtos" class="btn btn-primary btn-pill btn--brown">Download</a>
-                    </div>
-                </div>
+          <div class="content">
+            <h1>One database tool for<br />100+ data sources</h1>
+            <p>The professional data management software trusted by experts.</p>
+            <p>
+              You can use DBeaver PRO’s advanced features, including a
+              professional SQL Editor, to explore, process, and administer any
+              SQL, NoSQL, and cloud data sources.
+            </p>
+            <div>
+              <a href="#produtos" class="btn btn-primary btn-pill btn--brown"
+                >Download</a
+              >
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="logos">
-        <div class="container">
-            <div class="logo-content">
-                <div class="images">
-                    <img src="images/mongo-db.png" alt="">
-                    <img src="images/oracle.png" alt="">
-                    <img src="images/aws.png" alt="">
-                    <img src="images/gcp.png" alt="">
-                    <img src="images/db2.png" alt="">
-                </div>
-                <div class="images">
-                    <img src="images/redis.png" alt="">
-                    <img src="images/mysql.png" alt="">
-                    <img src="images/sql.png" alt="">
-                    <img src="images/cassandra.png" alt="">
-                    <img src="images/postgresql.png" alt="">
-                </div>
-            </div>
-            
+      <div class="container">
+        <div class="logo-content">
+          <div class="images">
+            <img src="images/mongo-db.png" alt="" />
+            <img src="images/oracle.png" alt="" />
+            <img src="images/aws.png" alt="" />
+            <img src="images/gcp.png" alt="" />
+            <img src="images/db2.png" alt="" />
+          </div>
+          <div class="images">
+            <img src="images/redis.png" alt="" />
+            <img src="images/mysql.png" alt="" />
+            <img src="images/sql.png" alt="" />
+            <img src="images/cassandra.png" alt="" />
+            <img src="images/postgresql.png" alt="" />
+          </div>
         </div>
+      </div>
     </section>
 
     <section>
-        <div class="red-text">
-            All supported databases
-        </div>
+      <div class="red-text">All supported databases</div>
     </section>
 
     <section>
-        <div class="center-button">
-            <a href="#produtos" class="btn btn-primary btn-pill btn--cream">ADVANTAGES</a>
-        </div>
+      <div class="center-button">
+        <a href="#produtos" class="btn btn-primary btn-pill btn--cream"
+          >ADVANTAGES</a
+        >
+      </div>
     </section>
 
-    
-</body>
+    <section class="download-install" id="vantagens">
+      <div class="container">
+        <h2>
+          Download and install DBeaver PRO to transform your database management
+        </h2>
+        <p class="subtitle">
+          Purpose-built database tool for simplifying complex work. DBeaver PRO
+          adapts to the needs of any technical or business user who works with
+          data.
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Comprehensive data management</h3>
+            <p>
+              Analyze, compare, visualize and migrate data in various formats
+              and sources. Administer databases, design schemas, and automate
+              your routine tasks.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon">🔒</div>
+            <h3>High-Level Security</h3>
+            <p>
+              Support for complex authorization mechanisms such as Single
+              Sign-On (AWS SSO, GCP SSO, Okta), Kerberos, multi-factor
+              authentification, and more.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon">🛠️</div>
+            <h3>Ready-to-go database toolset</h3>
+            <p>
+              One place with everything you need to work with any SQL or NoSQL
+              database, both on-premise and in the cloud, with drivers and
+              special extensions included.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section" id="precos">
+      <div class="container">
+        <h2>DBEAVER PRODUCTS</h2>
+
+        <div class="pricing-cards">
+          <div class="pricing-card">
+            <div class="price">$200</div>
+            <div class="period">per user per Year</div>
+            <div class="product-name">CloudBeaver</div>
+            <p class="description">
+              A lightweight web application for teams with a convenient
+              interface for simple and secure work with data in the browser.
+            </p>
+            <p class="suitable">Suitable for:</p>
+            <ul>
+              <li>Financial analysis</li>
+              <li>Data analysis</li>
+              <li>Sales & Marketing</li>
+            </ul>
+            <a href="#buy" class="btn-pill btn--brown">Buy a license</a>
+          </div>
+
+          <div class="pricing-card">
+            <div class="price">$250</div>
+            <div class="period">per user per Year</div>
+            <div class="product-name">Enterprise Edition</div>
+            <p class="description">
+              Full-Featured toolkit for data management, SQL development,
+              database administration, and maintenance.
+            </p>
+            <p class="suitable">Suitable for:</p>
+            <ul>
+              <li>DBA & Technical support</li>
+              <li>Software development</li>
+              <li>QA & DevOps</li>
+            </ul>
+            <a href="#buy" class="btn-pill btn--brown">Buy a license</a>
+          </div>
+
+          <div class="pricing-card">
+            <div class="price">$80-800</div>
+            <div class="period">per user per Year</div>
+            <div class="product-name">Team Edition</div>
+            <p class="description">
+              A powerful role-based tool for data collaboration across teams in
+              real-time with full functionality of all DBeaver PRO products.
+            </p>
+            <p class="suitable">Suitable for:</p>
+            <ul>
+              <li>Development teams</li>
+              <li>Operations teams</li>
+              <li>Data Analysts</li>
+            </ul>
+            <a href="#buy" class="btn-pill btn--brown">Buy a license</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2>Upgrade your database management software</h2>
+        <div class="benefits">
+          <span>✓ 14-day free trial</span>
+          <span>✓ No credit card is needed</span>
+        </div>
+        <a href="#download" class="btn-pill btn--brown">Download DBeaver PRO</a>
+        <p style="margin-top: 30px; color: #666">
+          Download and install DBeaver PRO easily on Windows, Linux or macOS
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#">DBeaver PRO</a></li>
+              <li><a href="#">CloudBeaver</a></li>
+              <li><a href="#">Enterprise Edition</a></li>
+              <li><a href="#">Team Edition</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">License Agreement</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 DBeaver Corp. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
